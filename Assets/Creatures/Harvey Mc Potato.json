@@ -1,0 +1,11 @@
+{
+  "Name": "Harvey Mc Potato",
+  "Strength": 3,
+  "Dexterity": 2,
+  "Constitution": 1,
+  "Description": "Superpotet",
+  "Race": 1,
+  "Type": 0,
+  "Gold": 2,
+  "Position": { "x": 0.0, "y": 0.0 }
+}

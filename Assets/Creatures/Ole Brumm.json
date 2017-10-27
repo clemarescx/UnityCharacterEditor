@@ -1,0 +1,15 @@
+{
+    "Name": "Ole Brumm",
+    "Strength": 20,
+    "Dexterity": 20,
+    "Constitution": 20,
+    "Description": "Soul eater.",
+    "Race": 2,
+    "Type": 2,
+    "Inventory": [],
+    "Gold": 1,
+    "Position": {
+        "x": 0.0,
+        "y": 0.0
+    }
+}

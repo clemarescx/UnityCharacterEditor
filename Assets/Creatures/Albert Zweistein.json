@@ -1,0 +1,11 @@
+{
+  "Name": "Albert Zweistein",
+  "Strength": 3,
+  "Dexterity": 13,
+  "Constitution": 6,
+  "Description": "E = MC Hammer",
+  "Race": 0,
+  "Type": 0,
+  "Gold": 31415,
+  "Position": { "x": 0.0, "y": 0.0 }
+}
