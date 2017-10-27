@@ -9,7 +9,11 @@ using UnityEditorInternal;
 using UnityEngine;
 
 namespace Assets{
+	/// <summary>
+	/// Contains all layout code for the editor
+	/// </summary>
 	public class CreatureEditor : EditorWindow{
+
 		private static Creature _cachedCreature;
 		private Vector2 _scrollPos;
 		private bool _showInventory = true;
@@ -20,6 +24,9 @@ namespace Assets{
 			window.Show();
 		}
 
+		/// <summary>
+		/// the "main" loop
+		/// </summary>
 		private void OnGUI(){
 			GUILayout.BeginHorizontal(GUILayout.MaxWidth(300)); // Buttons start
 			DisplayTopButtons();
@@ -65,19 +72,8 @@ namespace Assets{
 				EditorGUI.indentLevel += 1;
 				for(int i = 0; i < itemCount; i++){
 					var item = _cachedCreature.Inventory[i];
-					
-					item.Name = EditorGUILayout.TextField("Name", item.Name);
-					item.Type = (ItemType)EditorGUILayout.EnumPopup("Type", item.Type);
 
-					GUILayout.BeginHorizontal();
-					item.Value = EditorGUILayout.IntField("Value", item.Value);
-					item.Weight = EditorGUILayout.DoubleField("Weight", item.Weight);
-
-					if(GUILayout.Button("X", GUILayout.Width(20), GUILayout.Height(10)))
-						//TODO: fix out-of-range error for all-but-last items
-						_cachedCreature.Inventory.Remove(item);
-
-					GUILayout.EndHorizontal();
+					DisplayItem(item);
 					
 					GUILayout.Space(10);
 				}
@@ -87,6 +83,20 @@ namespace Assets{
 					_cachedCreature.Inventory.Add(new Item{ Name = "New Item" });
 
 			}
+		}
+
+		private void DisplayItem(Item item){
+			item.Name = EditorGUILayout.TextField("Name", item.Name);
+			item.Type = (ItemType) EditorGUILayout.EnumPopup("Type", item.Type);
+
+			GUILayout.BeginHorizontal();
+			item.Value = EditorGUILayout.IntField("Value", item.Value);
+			item.Weight = EditorGUILayout.DoubleField("Weight", item.Weight);
+
+			if(GUILayout.Button("X", GUILayout.Width(20), GUILayout.Height(10)))
+				//TODO: fix out-of-range error for all-but-last items
+				_cachedCreature.Inventory.Remove(item);
+			GUILayout.EndHorizontal();
 		}
 
 		private static void DisplayTopButtons(){
