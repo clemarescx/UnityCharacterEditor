@@ -1,25 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
-using UnityEngine;
 
 namespace Assets
 {
     [Serializable]
     public class Creature
     {
-        public string Name;
-        public int Strength;
-        public int Dexterity;
+        public string BlasonMaxim;
+        public string BlasonRootType;
         public int Constitution;
-        public string Description;
 
         public CreatureRace CreatureRace;
-        public CreatureType Type;
-
-        public List<Item> Inventory;
+        public string Description;
+        public int Dexterity;
 
         public int Gold;
-        public string BlasonRootType;
-        public string BlasonMaxim;
+
+        public List<Item> Inventory;
+        public string Name;
+        public int Strength;
+        public CreatureType Type;
     }
 }

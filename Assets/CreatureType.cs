@@ -1,7 +1,9 @@
-﻿namespace Assets {
-	public enum CreatureType {
-		Anthropomorph,
-		Animal,
-		Undead
-	}
+﻿namespace Assets
+{
+    public enum CreatureType
+    {
+        Anthropomorph,
+        Animal,
+        Undead
+    }
 }
