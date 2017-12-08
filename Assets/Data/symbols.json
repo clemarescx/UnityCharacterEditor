@@ -1,0 +1,85 @@
+{
+    "Animal": {
+        "Mammal": {
+            "Wolf": [
+                "I am the master of the pack",
+                "I am the tireless hunter"
+            ],
+            "Fox": [
+                "I outwit all",
+                "I find my way through the thickest woods"
+            ],
+            "Bear": [
+                "All fear my strength and anger",
+                "I am the solitary guardian of the wild",
+                "I am Biggest and Stronger"
+            ],
+            "Stag": [
+                "I am the King of all trees",
+                "My crown rises to the skies",
+                "My spirit spreads wide and far"
+            ],
+            "Lion": [
+                "My roar is only matched by my Panache",
+                "I rule upon all creatures",
+                "I hold both Strength and Glory"
+            ]
+        },
+        "Bird": {
+            "Raven": [
+                "I have survived every battle",
+                "Mine is the announcement of grimmer days",
+                "There is wisdom in darkness"
+            ],
+            "Falcon": [
+                "None Can strike as fast as me",
+                "Victory is swift and sharp",
+                "Rise high, see far"
+            ],
+            "Eagle": [
+                "I am the King of all Heavens",
+                "I soar to the highest sky",
+                "I strike with might"
+            ],
+            "Owl": [
+                "I roam the night without fear",
+                "Silently I come, silently I strike",
+                "I am the calm keeper of the tree"
+            ],
+            "Peacock": [
+                "Beauty is etenity",
+                "All shall witness me",
+                "Master of all shades and patterns"
+            ]
+        },
+        "Reptile": {
+            "Viper": [
+                "I am both the Healing and Poison",
+                "None can catch me",
+                "Never twice under the same skin"
+            ]
+        }
+    },
+    "Nature": {
+        "Tree": {
+            "Oak": [
+                "None can break me",
+                "I pass the centuries",
+                "I stand"
+            ]
+        },
+        "Flower": {
+            "Rose": [
+                "Beauty draped in Blood",
+                "Manifold layers of mystery",
+                "I cannot be grasped"
+            ],
+            "Daisy": [
+                "I am the face of the Land",
+                "Plains and Simple",
+                "The ground growing Sun"
+            ]
+        }
+    },
+    "Monument": {}
+}

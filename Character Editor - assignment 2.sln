@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Character Editor - assignment 2", "Character Editor - assignment 2.csproj", "{23D737C1-287F-FA86-8B86-F85DC94844CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterEditorTests", "..\CharacterEditorTests\CharacterEditorTests.csproj", "{6E135116-C1C4-4DDE-A6DF-C9543BF150BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{23D737C1-287F-FA86-8B86-F85DC94844CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23D737C1-287F-FA86-8B86-F85DC94844CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23D737C1-287F-FA86-8B86-F85DC94844CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E135116-C1C4-4DDE-A6DF-C9543BF150BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E135116-C1C4-4DDE-A6DF-C9543BF150BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E135116-C1C4-4DDE-A6DF-C9543BF150BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E135116-C1C4-4DDE-A6DF-C9543BF150BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
