@@ -1,28 +1,25 @@
-﻿using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
-using UnityEditor;
-using UnityEngine;
-using Newtonsoft.Json;
-
 using Newtonsoft.Json.Linq;
+using UnityEngine;
 
-namespace Assets{
-	public class SymbolsManager
-	{
-		private string _symbolsPath = "Assets/Data/symbols.json";
-		private JObject symbolsDatabase;
+namespace Assets
+{
+    // Not ready for use
+    public class SymbolsManager
+    {
+        private readonly string _symbolsPath = "Assets/Data/symbols.json";
+        private readonly JObject symbolsDatabase;
 
-		public SymbolsManager()
-		{
-			string symbolsJson = File.ReadAllText(_symbolsPath);
-			
-			symbolsDatabase = JObject.Parse(symbolsJson);
+        public SymbolsManager()
+        {
+            var symbolsJson = File.ReadAllText(_symbolsPath);
 
-			var topKeys = symbolsDatabase.PropertyValues().ToList();
-			topKeys.ForEach( x => Debug.Log(x.ToString()));
-			Debug.Log("Top keys: " + topKeys);
-		}
-		
-	}
+            symbolsDatabase = JObject.Parse(symbolsJson);
+
+            var topKeys = symbolsDatabase.PropertyValues().ToList();
+            topKeys.ForEach(x => Debug.Log(x.ToString()));
+            Debug.Log("Top keys: " + topKeys);
+        }
+    }
 }
