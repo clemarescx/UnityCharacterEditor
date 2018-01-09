@@ -1,11 +1,13 @@
 {
-  "Name": "Harvey Mc Potato",
-  "Strength": 3,
-  "Dexterity": 2,
-  "Constitution": 1,
-  "Description": "Superpotet",
-  "Race": 1,
-  "Type": 0,
-  "Gold": 2,
-  "Position": { "x": 0.0, "y": 0.0 }
+    "BlasonMaxim": "hello",
+    "BlasonRootType": "Animal.Mammal.Fox.0",
+    "Constitution": 1,
+    "CreatureRace": 0,
+    "Description": "Superpotet",
+    "Dexterity": 2,
+    "Gold": 2,
+    "Inventory": [],
+    "Name": "Harvey Mc Potato",
+    "Strength": 3,
+    "Type": 0
 }
