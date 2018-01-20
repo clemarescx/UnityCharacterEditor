@@ -1,0 +1,20 @@
+{
+    "BlasonMaxim": "hello",
+    "BlasonRootType": "Animal.Mammal.Fox.0",
+    "Constitution": 6,
+    "CreatureRace": 1,
+    "Description": "Test",
+    "Dexterity": 13,
+    "Gold": 99,
+    "Inventory": [
+        {
+            "Name": "leelele",
+            "Type": 2,
+            "Value": 0,
+            "Weight": 0.0
+        }
+    ],
+    "Name": "Test",
+    "Strength": 3,
+    "Type": 1
+}

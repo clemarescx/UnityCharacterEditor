@@ -6,3 +6,4 @@ Build a tool in Unity to create characters for a Roleplaying Game. The character
 
 ## Instructions
 In Unity, the editor can be found under the menu Window > **Creature Editor 0.0.1**
+Requires Newtonsoft.json (available on NuGet)
